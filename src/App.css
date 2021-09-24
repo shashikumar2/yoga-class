@@ -1,0 +1,314 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.firstpage {
+  background-color: mintcream;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  margin-top:0;
+}
+
+.navbar {
+  border: 20px powderblue solid ; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+  margin:auto;  
+}
+
+.navbar ul li {
+    display: inline-block;  
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color:lightseagreen;
+    font-weight: bold;
+}
+
+.navbar ul li.services a:link{
+  background-color: darkcyan;
+}
+
+.logo img{
+    float: left;
+    width: 30px;
+    height: 50px;
+    background-color: lightseagreen;
+}
+
+.firstpageItems {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.posterMain img{  
+  width: 150px; 
+  height: 400px;
+  width:80%;
+  margin-left: 150px;
+}
+
+.mainContent {
+  width:50%;  
+}
+
+.mainContent h2{
+  font-size: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  text-align: center; 
+}
+
+.mainContent p{
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  margin-left: 20px;
+  
+}
+
+.mainContent button{
+  border-radius: 10px;
+  color: #fff;
+  background-color: lightseagreen;
+  padding: 2px 30px;
+  letter-spacing: 2px;
+  font-size: 15px ;
+  font-weight:bold;
+  margin-left: 220px;
+}
+
+.secondpage{
+  background-color: lightseagreen;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.secondpageTop {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.secondpageTop h1{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+  text-align:center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.secondpageTop p{
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.secondpageItems{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.secondpageItems>div{
+  color:#fff;
+}
+
+.secondpageItems img{
+  margin-left: 10px;
+}
+
+.secondpageItems h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.thirdpage{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: mintcream;
+  padding-top: 40px;
+  padding-bottom: 400px;
+}
+
+.thirdpage h1{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  text-align:center;
+}
+
+.thirdpage p{
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  text-align: center;  
+}
+
+.fourthpage{
+  background-color: lightseagreen;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.fourthpageTop{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.fourthpageTop h1{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+  text-align:center;
+}
+
+.fourthpageTop p{
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+  text-align: center;
+}
+
+.fourthpageItems{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.fourthpageItems>div{
+  background-color: mintcream;
+  color:lightseagreen;  
+  padding: 10px 20px;
+  width:300px;  
+}
+
+.fourthpageItems h3,p{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.fourthpageItems img{
+  height:100px;
+  width:50px;
+  margin-left: 120px;
+}
+
+.fourthpageItems button{
+  background-color: lightseagreen;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px 100px;
+  border-radius: 5px; 
+}
+
+.fifthpage{
+  background-color: mintcream;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.fifthpage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height:15%;
+}
+
+.fifthpage p{
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  text-align: center;
+  line-height: 30%;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.fifthpage h2{
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:lightseagreen;
+  text-align:center;
+  font-weight: bold;
+}
+
+.sixthpage{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightseagreen;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.sixthpage h1{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:mintcream;
+  text-align:center;
+}
+
+.sixthpage p{
+  font-family:Arial, Helvetica, sans-serif;
+  color:mintcream;
+  text-align: center;
+  line-height: 10px;
+}
+
+.sixthpage div{
+  display:flex ;
+  justify-content: center;
+}
+
+.sixthpage input{
+  width: 300px;
+  border-radius: 20px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  color: lightseagreen;
+}
+
+.sixthpage button{
+  width: 100px;
+  border-radius: 20px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  color: lightseagreen;
+}
+
+.seventhpage {
+  display: flex;
+  justify-content:space-around;
+  color: lightseagreen;
+  background-color: mintcream;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.seventhpage p{  
+  line-height: 10px;
+  text-align: start;
+}
+
+.seventhpage a{
+  display:block;
+  text-decoration: none;
+  color: lightseagreen;
+  line-height: 25px;
+}
+
+
+
+
