@@ -87,7 +87,7 @@
   line-height: 20px;
 }
 
-/* .mainContent button{
+.mainContent button{
   border-radius: 10px;
   color: #fff;
   background-color: lightseagreen;
@@ -96,7 +96,7 @@
   font-size: 15px ;
   font-weight:bold;
   margin-left: 40%;
-} */
+}
 
 .secondpage{
   background-color: lightseagreen;
@@ -329,6 +329,7 @@
   letter-spacing: 2px ;
   text-align: start;
 }
+
 
 .seventhpage a{
   display:block;
