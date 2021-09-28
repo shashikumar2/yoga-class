@@ -27,7 +27,7 @@ function App() {
             <p>Lorem ipsum dolor sit amet, consectetur adipi-</p>
             <p> scing elit.Donec fringilla neque euismod volut-</p>
             <p> pat curus. Vestibulum ac pretium orci.</p><br/>
-            <button>JOIN NOW</button>
+            {/* <button>JOIN NOW</button> */}
         </div>
       </div>
     </div>
