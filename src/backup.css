@@ -2,14 +2,13 @@
 
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding :0;
 }
 
 .firstpage {
   background-color: mintcream;
   padding-top: 20px;
-  padding-bottom:250px;
+  padding-bottom: 90px;
+  margin-top:0;
 }
 
 .navbar {
@@ -39,36 +38,25 @@
 
 .logo img{
     float: left;
-    width: 5%;
-    height: auto;
+    width: 30px;
+    height: 50px;
     background-color: lightseagreen;
 }
 
 .firstpageItems {
-  margin-top: 10%;
+  margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
-
-@media only screen and (min-width: 900px){
-  .posterMain img{   
-    height: 120%;
-    width: 100%;
-    margin-left: 30%;
-  }
-}
-
-@media only screen and (max-width: 900px){
-  .posterMain img{   
-    height: 100%;
-    width: 100%;  
-  }
+.posterMain img{  
+  width: 150px; 
+  height: 400px;
+  width: 80%;
+  margin-left: 150px;
 }
 
 .mainContent {
-  padding-top: 5%;
   width:50%;  
 }
 
@@ -83,8 +71,8 @@
   font-weight:bold;
   font-family:Arial, Helvetica, sans-serif;
   color:lightseagreen;
-  margin-left: 20px; 
-  line-height: 20px;
+  margin-left: 20px;
+  
 }
 
 .mainContent button{
@@ -95,13 +83,13 @@
   letter-spacing: 2px;
   font-size: 15px ;
   font-weight:bold;
-  margin-left: 40%;
+  margin-left: 220px;
 }
 
 .secondpage{
   background-color: lightseagreen;
   padding-top: 80px;
-  padding-bottom: 160px;
+  padding-bottom: 80px;
 }
 
 .secondpageTop {
@@ -124,7 +112,6 @@
   color:#fff;
   text-align: center;
   letter-spacing: 1px;
-  line-height: 150%;
 }
 
 .secondpageItems{
@@ -137,17 +124,11 @@
 }
 
 .secondpageItems img{
-  height: 100%;
-  width: 100%; 
+  margin-left: 10px;
 }
 
 .secondpageItems h1{
   font-size: 20px;
-  text-align: center;
-}
-
-.secondpageItems p{
-  letter-spacing: 150%;
   text-align: center;
 }
 
@@ -157,7 +138,7 @@
   margin-right: auto;
   background-color: mintcream;
   padding-top: 40px;
-  padding-bottom: 500px;
+  padding-bottom: 400px;
 }
 
 .thirdpage h1{
@@ -168,17 +149,17 @@
 }
 
 .thirdpage p{
+  font-weight:bold;
   font-family:Arial, Helvetica, sans-serif;
   color:lightseagreen;
   text-align: center;  
-  line-height: 150%;
 }
 
 .fourthpage{
   background-color: lightseagreen;
   background-size: cover;
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .fourthpageTop{
@@ -204,14 +185,14 @@
 .fourthpageItems{
   display: flex;
   justify-content:space-evenly;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .fourthpageItems>div{
   background-color: mintcream;
   color:lightseagreen;  
   padding: 10px 20px;
-  width:300px;    
+  width:300px;  
 }
 
 .fourthpageItems h3,p{
@@ -221,24 +202,23 @@
 
 .fourthpageItems img{
   height:100px;
-  width:50%;
-  margin-left: 25%;  
+  width:50px;
+  margin-left: 120px;
 }
 
 .fourthpageItems button{
   background-color: lightseagreen;
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
-  width: 100%;
-  padding: 10px 50px;
+  padding: 20px 100px;
   border-radius: 5px; 
 }
 
 .fifthpage{
   background-color: mintcream;
   padding-top: 60px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .fifthpage img{
@@ -253,14 +233,13 @@
   font-family:Arial, Helvetica, sans-serif;
   color:lightseagreen;
   text-align: center;
-  line-height: 120%;
+  line-height: 30%;
   font-size: 40px;
   letter-spacing: 2px;
-  word-spacing: 150% ;
 }
 
-.fifthpage h1{
-  font-size: 40px;
+.fifthpage h2{
+  font-size: 30px;
   font-family:Arial, Helvetica, sans-serif;
   color:lightseagreen;
   text-align:center;
@@ -284,20 +263,19 @@
 }
 
 .sixthpage p{
-  font-family:Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   color:mintcream;
   text-align: center;
-  line-height: 120%;
-  letter-spacing: 2px ;
+  line-height: 10px;
 }
 
 .sixthpage div{
-  display:flex ;    
+  display:flex ;
   justify-content: center;
 }
 
 .sixthpage input{
-  width: 25%;
+  width: 300px;
   border-radius: 20px;
   padding: 15px;
   font-weight: bold;
@@ -306,18 +284,17 @@
 }
 
 .sixthpage button{
-  width: 10%;
+  width: 100px;
   border-radius: 20px;
-  padding: 1%;
+  padding: 15px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 15px;
   color: lightseagreen;
 }
 
 .seventhpage {
   display: flex;
   justify-content:space-around;
-  flex-wrap: wrap;
   color: lightseagreen;
   background-color: mintcream;
   padding-top: 80px;
@@ -325,16 +302,15 @@
 }
 
 .seventhpage p{  
-  line-height: 120%;
-  letter-spacing: 2px ;
+  line-height: 10px;
   text-align: start;
 }
 
 .seventhpage a{
   display:block;
-  text-decoration: none; 
+  text-decoration: none;
   color: lightseagreen;
-  line-height: 175%;
+  line-height: 25px;
 }
 
 

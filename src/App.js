@@ -23,10 +23,10 @@ function App() {
            <img src = "poster-main.jpg" alt="poster"/>
         </div>
         <div className="mainContent">
-         <h2>YOGA CLASS</h2>
+         <h2>YOGA CLASS</h2><br/>
             <p>Lorem ipsum dolor sit amet, consectetur adipi-</p>
             <p> scing elit.Donec fringilla neque euismod volut-</p>
-            <p> pat curus. Vestibulum ac pretium orci.</p>
+            <p> pat curus. Vestibulum ac pretium orci.</p><br/>
             <button>JOIN NOW</button>
         </div>
       </div>
@@ -36,28 +36,28 @@ function App() {
 
     <div className="secondpage">
       <div className="secondpageTop">
-         <h1>CHOOSE CLASS</h1>
+         <h1>CHOOSE CLASS</h1><br/>
          <p>Lorem ipsum dolor sit amet, consectetur adipisc-</p>
           <p>ing elit. Vivamus odio vitae vestibulum ves-</p>
-          <p>tibulum.</p>
+          <p>tibulum.</p><br/>
       </div>
           <div className="secondpageItems">
              <div>
-                <img src = "newbie.jpg" alt="poster"/>
-                <h1>NEWBIE CLASS</h1>
+                <img src = "newbie.jpg" alt="poster"/><br/>
+                <h1>NEWBIE CLASS</h1><br/>
                 <p>Lorem ipsum dolor sit amet, </p>
                 <p>consectetur adipiscing elit.</p>
 
              </div>
              <div>
-                <img src = "advance.jpg" alt="poster"/>
-                <h1>ADVANCED CLASS</h1>
+                <img src = "advance.jpg" alt="poster"/><br/>
+                <h1>ADVANCED CLASS</h1><br/>
                 <p>Lorem ipsum dolor sit amet,</p>
                 <p> consectetur adipiscing elit.</p>
              </div>
              <div>
-                <img src = "expert.jpg" alt="poster"/>
-                <h1>EXPERT CLASS</h1>
+                <img src = "expert.jpg" alt="poster"/><br/>
+                <h1>EXPERT CLASS</h1><br/>
                 <p>Lorem ipsum dolor sit amet,</p>
                 <p> consectetur adipiscing elit.</p>
              </div>             
@@ -67,7 +67,7 @@ function App() {
 {/* *******************************************THIRD PAGE**************************************************/}
       
       <div className="thirdpage">
-         <h1>OUR STATS</h1>
+         <h1>OUR STATS</h1><br/>
          <p>Lorem ipsum dolor sit amet, consectetur adipisc-</p>
           <p>ing elit. Vivamus odio vitae vestibulum vesti-</p>
           <p>bulum</p>
@@ -77,38 +77,38 @@ function App() {
 
        <div className="fourthpage">
          <div className="fourthpageTop">
-            <h1>PRICING</h1>
+            <h1>PRICING</h1><br/><br/>
             <p>Lorem ipsum dolor sit amet, consectetur adipisc-</p>
               <p>ing elit. Vivamus odio vitae vestibulum vesti-</p>
-              <p>bulum.</p>
+              <p>bulum.</p><br/><br/>
          </div>
 
          <div className="fourthpageItems">
             <div>
-               <h3>NEWBIE CLASS</h3>
-               <h3>$00.00</h3>
-               <img src = "badge.png" alt="badge"/>
+               <h3>NEWBIE CLASS</h3><br/>
+               <h3>$00.00</h3><br/>
+               <img src = "badge.png" alt="badge"/><br/><br/>
                <p>Lorem ipsum dolor sit amet, </p>
-               <p>consectetur adipiscing elit.</p>
-               <button>REGISTER NOW</button>
+               <p>consectetur adipiscing elit.</p><br/>
+               <button>REGISTER NOW</button><br/><br/>
             </div>
 
             <div>
-                <h3>ADVANCE CLASS</h3>
-                <h3>$00.00</h3>
-                <img src = "badge.png" alt="badge"/>
+                <h3>ADVANCE CLASS</h3><br/>
+                <h3>$00.00</h3><br/>
+                <img src = "badge.png" alt="badge"/><br/><br/>
                 <p>Lorem ipsum dolor sit amet, </p>
-               <p>consectetur adipiscing elit.</p>
-               <button>REGISTER NOW</button>
+               <p>consectetur adipiscing elit.</p><br/>
+               <button>REGISTER NOW</button><br/><br/>
             </div>
 
             <div>
-                <h3>EXPERT CLASS</h3>
-                <h3>$00.00</h3>
-                <img src = "badge.png" alt="badge"/>
+                <h3>EXPERT CLASS</h3><br/>
+                <h3>$00.00</h3><br/>
+                <img src = "badge.png" alt="badge"/><br/><br/>
                 <p>Lorem ipsum dolor sit amet, </p>
-               <p>consectetur adipiscing elit.</p>
-               <button>REGISTER NOW</button>
+               <p>consectetur adipiscing elit.</p><br/>
+               <button>REGISTER NOW</button><br/><br/>
             </div>
          </div>
        </div>
@@ -116,19 +116,19 @@ function App() {
 {/* *********************************************FIFTH PAGE***********************************************/}
 
       <div className="fifthpage">
-         <img src = "face.jpg" alt="poster"/>
+         <img src = "face.jpg" alt="poster"/><br/>
           <p>Lorem ipsum dolor sit amet, consecte-</p>
           <p>tur adipiscing elit. Vivamus lacinia odio</p>
-          <p>vitae vestibulum vestbulum.</p>
-          <h2>TRAINER DEVANDRA</h2>
+          <p>vitae vestibulum vestbulum.</p><br/><br/>
+          <h1>TRAINER DEVANDRA</h1>
       </div>
 
 {/* *********************************************sixth page***********************************************/}
       <div className="sixthpage">
-         <h1>DONT MISS OUR UPDATE</h1>
+         <h1>DONT MISS OUR UPDATE</h1><br/><br/>
          <p>Lorem ipsum dolor sit amet, consectetur adipisc-</p>
-          <p>ing elit. Vivamus odio vitae vestibulum ves-</p>
-          <p>tibulum.</p>
+          <p>ing elit. Vivamus lacinia odio vitae vestibulum</p>
+          <p>vestibulum.</p><br/>
           <div>
           <input type="text" placeholder="Your Email" /><button>subscribe</button> 
           </div>
@@ -137,7 +137,7 @@ function App() {
 {/* *********************************************seventh page***********************************************/}
       <div className="seventhpage">
          <div>
-            <h3>Title Here</h3>
+            <h3>Title Here</h3><br/>
             <p>Lorem ipsum dolor sit amet, consecte-</p>
             <p>tur adipiscing elit. Aliquam at dignis-</p>
             <p>sim nunc, id maximus ex. Etiam nec</p>
@@ -145,7 +145,7 @@ function App() {
          </div>
 
          <div>
-            <h3>About</h3>            
+            <h3>About</h3><br/>            
                <a href="#">History</a>
                <a href="#">Our Team</a>
                <a href="#">Brand Guidelines</a>
@@ -154,7 +154,7 @@ function App() {
          </div>
 
          <div>
-            <h3>Services</h3>            
+            <h3>Services</h3><br/>           
                <a href="#">How to Order</a>
                <a href="#">Our Product</a>
                <a href="#">Order Status</a>
@@ -163,11 +163,11 @@ function App() {
          </div>
 
          <div>
-         <h3>Follow</h3>            
-               <a><i className="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-               <a><i className="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-               <a><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-               <a><i className="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>                          
+         <h3>Follow</h3><br/>            
+               <a><i className="fa fa-facebook" ></i> Facebook</a>
+               <a><i className="fa fa-twitter" ></i> Twitter</a>
+               <a><i className="fa fa-instagram" ></i> Instagram</a>
+               <a><i className="fa fa-whatsapp" ></i> Whatsapp</a>                          
          </div>
       </div>
     </div>
